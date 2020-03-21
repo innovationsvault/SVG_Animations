@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Flow Chart</title>
+  <script src="SVG_FlowChart.js"></script>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <p>
+    <center>
+      <svg class="animatedSpline" width=400 height=300 viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+        <g class="splines">
+          <polyline id="spline_main" points="-50,45 50,45 150,45 150,115 250,115 350,115 350,185 350,255" />
+          <polyline id="spline_second" points="150,115 150,185" />
+        </g>
+        <g class="bg_lines">
+          <line id="bg_line1" x1="100" y1="10" x2="100" y2="290" />
+          <line id="bg_line2" x1="200" y1="10" x2="200" y2="290" />
+          <line id="bg_line3" x1="300" y1="10" x2="300" y2="290" />
+        </g>
+        <g class="flowBoxes">
+          <rect id="dummyBox" x="-100" y="-100" width="0" height="0" />
+          <rect id="dummyBox2" x="-100" y="-100" width="0" height="0" />
+          <rect id="box1" x="20" y="20" width="60" height="50" ry="12" />
+          <rect id="box2" x="120" y="20" width="60" height="50" ry="12" />
+          <rect id="box3" x="120" y="90" width="60" height="50" ry="12" />
+          <rect id="box4" x="220" y="90" width="60" height="50" ry="12" />
+          <rect id="box5" x="320" y="90" width="60" height="50" ry="12" />
+          <rect id="box6" x="320" y="160" width="60" height="50" ry="12" />
+          <rect id="box7" x="320" y="230" width="60" height="50" ry="12" />
+          <rect id="box8" x="120" y="160" width="60" height="50" ry="12" />
+        </g>
+      </svg>
+    </center>
+  </p>
+</body>
+
+</html>

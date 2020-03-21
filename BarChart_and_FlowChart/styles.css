@@ -1,0 +1,62 @@
+
+
+/* SVGs
+-----------------------------------*/
+
+#barOne,
+#barThree,
+#barFive {
+  stroke: black;
+  stroke-width: 2;
+  fill: grey;
+  fill-opacity: 80%;
+}
+
+#barTwo,
+#barFour,
+#barSix {
+  stroke: black;
+  stroke-width: 2;
+  fill: blue;
+  fill-opacity: 80%;
+}
+
+.baseline {
+  stroke: black;
+  stroke-width: 2;
+  fill: none;
+}
+
+#lineOne {
+  stroke: red;
+  stroke-width: 3;
+  fill: none;
+}
+
+#lineTwo {
+  stroke: black;
+  stroke-width: 3;
+  fill: none;
+}
+
+.animatedSpline {
+  border: 1px solid black;
+}
+
+.splines {
+  stroke-opacity: 0.2;
+  stroke: blue;
+  fill: none;
+}
+
+.bg_lines {
+  stroke-opacity: 0.3;
+  stroke: #666;
+  fill: none;
+}
+
+.flowBoxes {
+  stroke-width: 1.5;
+  stroke: #000;
+  fill: #fff;
+}

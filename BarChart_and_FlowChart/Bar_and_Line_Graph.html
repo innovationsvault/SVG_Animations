@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Bar and Line Graph</title>
+  <script src="SVG_FlowChart.js"></script>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <p>
+    <center>
+      <svg class="box" width=400 height=300 xmlns="http://www.w3.org/2000/svg">
+        <line id="baseline" class="baseline" x1="20" y1="250" x2="380" y2="250" />
+        <rect id="barOne" class="animated" x="100" y="150" width="25" height="100" ry="5" />
+        <rect id="barTwo" class="animated" x="125" y="125" width="25" height="125" ry="5" />
+        <rect id="barThree" class="animated" x="175" y="100" width="25" height="150" ry="5" />
+        <rect id="barFour" class="animated" x="200" y="75" width="25" height="175" ry="5" />
+        <rect id="barFive" class="animated" x="250" y="50" width="25" height="200" ry="5" />
+        <rect id="barSix" class="animated" x="275" y="25" width="25" height="225" ry="5" />
+        <polyline id="lineOne" class="animated" points="30,240 100,200 220,170 285,120 380,110" />
+        <polyline id="lineTwo" class="animated" points="30,220 110,170 200,150 285,70 380,50" />
+      </svg>
+    </center>
+  </p>
+</body>
+
+</html>
